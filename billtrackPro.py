@@ -64,16 +64,7 @@ def clear_text():
     bill_notes_entry.delete (0, END)
     bill_date_entry.delete (0, END)
 
-# def show_help():
-#     help_text = """
-#     This app helps you track your bills.
 
-#     - To add a bill, fill in the required fields (Bill title, Amount, Notes, Date) and click 'Add bill'.
-#     - To remove a bill, select it from the list and click 'Remove bill'.
-#     - To update a bill, select it from the list, make changes, and click 'Update bill'.
-#     - To clear input fields, click 'Clear input'.
-#     """
-#     messagebox.showinfo("Help", help_text, width = 500 , height = 300)
 
 def show_help():
     help_text = """

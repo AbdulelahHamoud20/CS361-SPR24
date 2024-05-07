@@ -27,6 +27,5 @@ class Database:
     def __del__(self):
         self.conn.close()
 
-# Creating an instance of the database class
 db = Database('store.db')
 
