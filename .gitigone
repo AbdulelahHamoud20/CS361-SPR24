@@ -1,0 +1,13 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore build and distribution files
+build/
+dist/
+
+# Ignore database file
+store.db
+
+# Ignore Pipenv files
+Pipfile
+Pipfile.lock
